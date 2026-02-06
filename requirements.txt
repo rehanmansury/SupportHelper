@@ -1,0 +1,8 @@
+PyQt5>=5.15.9
+Pillow>=10.0.0
+pywin32==306
+pyperclip>=1.8.2
+tzdata>=2024.1
+pytz>=2024.1
+pytesseract>=0.3.10
+pytz>=2024.1

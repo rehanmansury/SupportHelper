@@ -1,0 +1,35 @@
+
+HOW TO RUN SupportHelper ON OTHER COMPUTERS
+==========================================
+
+If Windows blocks SupportHelper.exe with a security warning:
+
+METHOD 1 - Quick Fix:
+1. Right-click on SupportHelper.exe
+2. Select "Properties"
+3. If you see "This file came from another computer" checkbox
+4. Check "Unblock" and click OK
+5. Run the file normally
+
+METHOD 2 - Windows Defender Warning:
+1. When you see the Windows Defender warning
+2. Click "More info"
+3. Click "Run anyway"
+4. Check "Always run" if available
+
+METHOD 3 - PowerShell (Admin):
+1. Open PowerShell as Administrator
+2. Navigate to the folder with SupportHelper.exe
+3. Run: Unblock-File SupportHelper.exe
+4. Run the application
+
+WHY THIS HAPPENS:
+- Windows protects against unknown applications
+- The EXE is not digitally signed (certificates cost $300+/year)
+- This is normal for independent developers
+
+FOR ORGANIZATIONS:
+- Ask IT to add SupportHelper.exe to the whitelist
+- Or host on a trusted internal network location
+
+The application is SAFE - it's just Windows being protective!
